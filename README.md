@@ -8,5 +8,4 @@ Images included are outputs from nvprof, a cuda diagnostic/performance measuring
 2: pconvolutions_nvprof.png
 3: pblur_nvprof.png
 
-This sequential Gaussian Blur takes 653 microseconds and I've improved it to around 350, then all the way down to 5.67 microseconds.
-The speedup is about 110 times as fast, which I'm pretty happy with.
+This sequential Gaussian Blur takes 653 microseconds and I've improved it to around 350, then all the way down to 5.67 microseconds. The speedup is about 110 times as fast, which I'm pretty happy with. More formal analysis of theoretical speedup factors/asymptotic analysis could be performed for potentially even faster speeds.
