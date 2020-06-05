@@ -1,5 +1,5 @@
 # Gaussian-Blur-Parallelization
-Several NVIDIA CUDA C++ implementations of a Gaussian Blur operation. Sequential, partially parallel, fully parallel implementations were made, each as an upgrade to the last.
+Several NVIDIA CUDA C++ implementations of a Gaussian Blur operation. Sequential, partially parallel, fully parallel implementations were made, each as an upgrade to the last. Created as an exercise in learning CUDA C++.
 
 Performs the blur on a randomized 16*16 greyscale pixel matrix; aka a 2D array of 8 bit unsigned integers.
 
