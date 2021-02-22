@@ -9,10 +9,10 @@ __global__
 void convolve(uint8_t input[N][M], uint8_t *val, int i, int j)
 {
 	int kernel[25] = { 1, 4, 7, 4, 1,
-					   4,16,26,16, 4,
-					   7,26,41,26, 7,
-					   4,16,26,16, 4,
-					   1, 4, 7, 4, 1 };
+			   4,16,26,16, 4,
+			   7,26,41,26, 7,
+			   4,16,26,16, 4,
+			   1, 4, 7, 4, 1 };
 	int k_pos = 0;
 	int weight = 0;
 	int denom = 0;
