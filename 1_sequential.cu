@@ -84,4 +84,5 @@ int main()
 	cudaFree(blur);
 	
 	return 0;
+	
 }
