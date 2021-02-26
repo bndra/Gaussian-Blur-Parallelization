@@ -80,10 +80,10 @@ void gauss(uint8_t input[N][M], uint8_t output[N][M])
 	int* kernel;
 	cudaMallocManaged(&kernel, sizeof(int) * 25);
 	int dummy[25] = { 1, 4, 7, 4, 1,
-					  4,16,26,16, 4,
-					  7,26,41,26, 7,
-					  4,16,26,16, 4,
-					  1, 4, 7, 4, 1 };
+			  4,16,26,16, 4,
+			  7,26,41,26, 7,
+			  4,16,26,16, 4,
+			  1, 4, 7, 4, 1 };
 	for (int i=0; i<25; i++)
 		kernel[i] = dummy[i];
 	
