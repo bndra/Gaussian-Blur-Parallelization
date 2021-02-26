@@ -97,8 +97,8 @@ int main()
 	print(reinterpret_cast<uint8_t (*)[M]>(image));
 	
 	gauss<<<gridSize, blockSize>>>(reinterpret_cast<uint8_t (*)[M]>(image), 
-							reinterpret_cast<uint8_t (*)[M]>(blur), 
-							kernel);
+					reinterpret_cast<uint8_t (*)[M]>(blur), 
+					kernel);
 	
 	cudaDeviceSynchronize();
 	
